@@ -1,0 +1,25 @@
+.capsule-data, .characters, .search, .pagination {
+    display: none;
+}
+
+.capsules {
+    columns: 4;
+    display: block;
+}
+
+.capsules .col {
+    cursor: pointer;
+}
+
+.wiki {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.capsules div {
+    transition-duration: 0.25s;
+}
+
+.capsules div:hover {
+    transform: scale(0.9);
+}
